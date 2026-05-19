@@ -1,0 +1,36 @@
+# Jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (opcional - remova se quiser versionar os dados)
+*.csv
+*.pkl
+*.joblib
+
+# Gráficos gerados
+*.png
+*.jpg
+*.jpeg
+
+# Python
+*.egg-info/
+dist/
+build/

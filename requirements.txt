@@ -1,0 +1,35 @@
+# ============================================================
+# requirements.txt — A3 Inteligência Artificial
+# Comitê de Classificadores: Previsão de Churn em Telecom
+# Universidade São Judas Tadeu — 2026
+#
+# Como instalar:
+#   pip install -r requirements.txt
+#
+# Como rodar o notebook:
+#   jupyter notebook A3_Telecom_Churn.ipynb
+# ============================================================
+
+# --- Ambiente Jupyter ---
+jupyter>=1.1.0
+notebook>=7.3.0
+ipykernel>=6.29.0
+
+# --- Manipulação de dados ---
+pandas>=2.2.0
+numpy>=1.26.0
+
+# --- Visualização ---
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# --- Machine Learning (scikit-learn cobre tudo do projeto) ---
+# KNN, Naive Bayes, Decision Tree, SVM, VotingClassifier,
+# StandardScaler, SimpleImputer, train_test_split,
+# accuracy_score, precision_score, recall_score,
+# f1_score, confusion_matrix, classification_report,
+# ConfusionMatrixDisplay, SelectFromModel, cross_val_score
+scikit-learn>=1.4.0
+
+# --- Dependência interna do scikit-learn ---
+scipy>=1.12.0
