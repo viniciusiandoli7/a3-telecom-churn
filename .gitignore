@@ -22,6 +22,7 @@ Thumbs.db
 
 # Data (opcional - remova se quiser versionar os dados)
 *.csv
+!telecom_churn_data.csv
 *.pkl
 *.joblib
 
